@@ -1,0 +1,191 @@
+.container {
+  width: 100%;
+  height: 80px;
+}
+.con1 {
+  height: 50px;
+  margin: auto;
+  float: left;
+  background-color: white;
+}
+
+.con2 {
+  width: 60%;
+  height: 50px;
+  margin: auto;
+  float: right;
+  background-color: white;
+}
+.row {
+  margin: auto;
+  float: none;
+  text-align: center;
+}
+
+.line {
+  width: 50px;
+  margin: auto;
+  float: none;
+}
+
+.ll {
+  width: 80%px;
+  margin: auto;
+  float: none;
+  height: 1px;
+  background-color: #ccc;
+}
+.footer {
+  width: 100%;
+}
+
+.body2 {
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  float: none;
+  background-color: black;
+}
+.ho:hover {
+  color: green;
+  border: 2px solid #fbfb00;
+}
+.ftt {
+  width: 100%;
+  height: 100%;
+  float: none;
+  margin: "auto";
+  background: url(/public/image/20160216103740-Untitled-5.jpeg) no-repeat 50%
+    50%;
+  background-size: "cover";
+  display: "table";
+  position: "relative";
+  height: "100%";
+  display: flex;
+  flex-direction: column;
+  color: #aaa !important;
+  font-weight: 900;
+}
+
+.ftt a {
+  color: #aaa !important;
+}
+
+.item1 {
+  width: 100%;
+  /* height: 200px; */
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.item2 {
+  width: 100%;
+  /* height: 200px; */
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.item3 {
+  width: 100%;
+  /* height: 200px; */
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.space {
+  width: 10px;
+  height: 1px;
+  margin: auto;
+  float: none;
+  background-color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.load {
+  animation: slide 2s;
+}
+.slider {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 50vh;
+  animation: slide 30s infinite;
+}
+.content {
+  color: #fff;
+  width: 100%;
+  height: 50vh;
+}
+.principal {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  letter-spacing: 5px;
+  text-align: center;
+}
+.principal h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+.principal p {
+  font-size: 20px;
+}
+.btn {
+  color: #fff !important;
+}
+
+@media (max-width: 770px) {
+  .item1 {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 600px;
+  }
+}
+
+@keyframes slide {
+  0% {
+    background-image: url("../../public/image/23642733_xl-m.jpg");
+  }
+
+  10.01% {
+    background-image: url("../../public/image/black-and-silver-solar-panels-159397.jpg");
+  }
+
+  20.01% {
+    background-image: url("../../public/image/clear-light-bulb-planter-on-gray-rock-1108572.jpg");
+  }
+
+  30.01% {
+    background-image: url("../../public/image/Greenerg.png");
+  }
+
+  40.01% {
+    background-image: url("../../public/image/project3.jpg");
+  }
+
+  50.01% {
+    background-image: url("../../public/image/hydroelectric-power-istock-Zsteves.jpg");
+  }
+
+  60.01% {
+    background-image: url("../../public/image/pexels-johan-bos-687854.jpg");
+  }
+
+  100% {
+    background-image: url("../../public/image/geothermal-energy-2-1587061965318.jpg");
+  }
+}
